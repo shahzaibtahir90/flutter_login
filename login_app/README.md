@@ -1,22 +1,38 @@
 # Flutter Login App
 
-This is a simple Flutter project I built as part of my Week 1 internship task.  
-The main goal of this app was to understand how Flutter UI works, how form validation is handled, and how navigation between screens works.
+This is a simple Flutter project that I built as part of my Week 1 internship task.  
+The purpose of this project was to understand the basics of Flutter development, including UI building, form validation, and navigation between screens.
 
-It’s a basic login app that includes validation and a second screen after successful login.
+It is a basic login application with a clean interface and simple functionality for learning core Flutter concepts.
 
 ---
 
-## 📱 What this app does
+## 📱 Features
 
-- A clean and simple Login screen
-- Email and Password input fields
-- Basic form validation:
-  - Checks if email is in correct format
+This app includes the following features:
+
+- Clean and simple Login screen UI
+- Email input field
+- Password input field
+- Form validation:
+  - Validates email format
   - Ensures password is not empty
 - "Forgot Password?" text (UI only)
-- Navigates to a Home screen after successful login
+- Login button with validation
+- Navigation to Home screen after successful login
 - Simple Home screen with a welcome message
+
+---
+
+## 🧠 What I Learned
+
+While building this project, I learned:
+
+- How Flutter widgets work and how to structure UI
+- How to use `TextFormField` for input handling
+- How form validation works in Flutter
+- How to navigate between screens using `Navigator.push()`
+- How to organize a simple multi-screen Flutter app
 
 ---
 
@@ -25,3 +41,32 @@ It’s a basic login app that includes validation and a second screen after succ
 - Flutter
 - Dart
 
+---
+
+## 📂 Project Structure
+lib/
+│── main.dart
+│── login_screen.dart
+│── home_screen.dart
+
+
+---
+
+## 🚀 How to Run This Project
+
+Follow these steps to run the project on your local machine:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/shahzaibtahir90/flutter_login.git
+
+cd flutter_login
+
+flutter pub get
+
+flutter run
+
+Author:
+
+Hafiz Muhammad Shahzaib Tahir
+Flutter Internship Project – Week 1
